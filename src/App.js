@@ -1,5 +1,5 @@
-import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Aboutme from './Aboutme';
 import Education from './Education';
 import Skills from './Skills';
@@ -10,7 +10,7 @@ import Hobbies from './Hobbies'
 
 function App() {
     return (
-        <div className = "container">
+        <div className = "container mt-4 mb-5 bgAbout">
             <Aboutme />
             <Education />   
             <Skills />
@@ -18,6 +18,7 @@ function App() {
             <Certifications />
             <Extra />
             <Hobbies />
+            
         </div> 
   );
 }

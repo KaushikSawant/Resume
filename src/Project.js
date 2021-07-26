@@ -3,8 +3,8 @@ import React from 'react';
 function Project(){
     return(
         <div className="row justify-content-end">
-            <div className="col-12 col-md-8">
-                <div>
+            <div className="col-12 col-md-8 card bgProject">
+                <div className="card-body">
                     <h3>Projects:</h3>
                     <h4>E Learning</h4>
                     <h5>Technologies used: React.js, MongoDB, Java</h5>
@@ -16,7 +16,7 @@ function Project(){
                     </p>    
                 </div>
 
-                <div>
+                <div className="card-body">
                     <h4>College Management System</h4>
                     <h5>Technologies used: Java MVC</h5>
                     <p>
