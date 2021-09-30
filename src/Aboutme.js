@@ -1,12 +1,16 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import image from './Images/myPhoto.jpg';
 
 const img = {"profile":image}
+
+
 function Aboutme(){
     return(
         <div className="row">
             <div className="col-12 col-md-4 center">
                 <img src={img.profile} className="pic"/>
+
+
             </div>
             <div className="col-12 col-md-8 card bgProject">    
                 <h3>About Me:</h3>

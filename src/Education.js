@@ -5,7 +5,9 @@ import {FcElectricity} from "react-icons/fc"
 import {HiOutlineMail} from "react-icons/hi"
 import {FaPhoneAlt} from "react-icons/fa"
 
-function Education(){
+const Education = () => {
+
+
     return(
         <div>
             <div className="row justify-content-end">
@@ -13,7 +15,8 @@ function Education(){
                     Kaushik Sawant<br/>
                    <HiOutlineMail /> kaushiksawant567@gmail.com<br/>
                     <FaPhoneAlt /> +91 9892245473<br/>
-                    
+
+
                 </div>    
                 
                     <div className="col-12 col-md-8 card bgProject">
@@ -32,7 +35,7 @@ function Education(){
                         Marks: 58%<br/>
                         Project: 1] Maglev Train<br/><br/>
                     </div>    
-                </div>    
+            </div>
                 
         </div>    
 

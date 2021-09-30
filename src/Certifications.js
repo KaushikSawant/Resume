@@ -11,10 +11,10 @@ function Certifications(){
                 <table className="table">
                     <thead>
                         <tr>
-                            <th><SiMicrosoftazure size="2em"/>Microsoft Azure Fundamentals AZ-900</th><a href="https://www.youracclaim.com/badges/c4662d66-6cd2-4d78-bdf6-a9c72ea03c1c/public_url" target="_blank" class="btn btn-primary mt-1">Verify</a>
+                            <th><SiMicrosoftazure size="2em"/>Microsoft Azure Fundamentals AZ-900</th><a href="https://www.youracclaim.com/badges/c4662d66-6cd2-4d78-bdf6-a9c72ea03c1c/public_url" target="_blank" className="btn btn-primary mt-1">Verify</a>
                         </tr>
                         <tr>
-                            <th><SiBitcoin size="2em"/>Introduction to FinTech</th><a href="https://courses.edx.org/certificates/5e353bedf5754369ab6b598fbd38721a" target="_blank" class="btn btn-primary mt-1">Verify</a>
+                            <th><SiBitcoin size="2em"/>Introduction to FinTech</th><a href="https://courses.edx.org/certificates/5e353bedf5754369ab6b598fbd38721a" target="_blank" className="btn btn-primary mt-1">Verify</a>
                         </tr>    
                     </thead>    
                 </table>
