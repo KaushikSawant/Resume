@@ -11,7 +11,7 @@ const [city, setCity] = useState(null);
             const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=f02e36cac6ab695fffd17c43bc4c6e5a`;
             const response = await fetch(url);
             const resJson = await response.json();
-            //console.log(resJson);
+           // console.log(resJson);
             setCity(resJson.main)
 
         }
